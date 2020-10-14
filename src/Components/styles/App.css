@@ -1,0 +1,50 @@
+*{margin: 0px; padding:0px;}
+
+body {background-color: chocolate;}
+
+.App{
+    width: 100%;
+    background: cornsilk;
+    width: 250px;
+    margin: 100 auto 0 auto;
+    color: white;
+
+    box-shadow: 0 5px 15px 1px rgba (0,0,0,0.6),
+    0 0 200 px 1px rgba(255,255,255,0.5);
+}
+
+.App li{
+    list-style: none;
+}
+
+.category h3 {
+    font-size: 20px;
+    line-height: 50px;
+    padding: 10´px;
+    margin: 0px;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.icon{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.category ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    display: block;
+    padding: 0 15px;
+    transform: all 0.25s;
+}
+
+.category ul li a:hover{
+    background:blueviolet;
+    border-left:cornflowerblue ;
+    transform: all 0.55s;
+    color: white;
+}
