@@ -19,8 +19,15 @@ class Ajustes1 extends React.Component {
                             <li>
                                 <a class="header__link" href="Ayuda">Ayuda</a>
                             </li>
+                            <li>
+                                <a class="header__link" href="Ajustes">Ajustes</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="Ajustes2">Ajustes #2</a>
+                            </li>
                         </ul>
                     </nav>
+                    <br/>
                     <br />
                     <p>
                         <br /><h1>Ajustes</h1>
@@ -42,16 +49,13 @@ class Ajustes1 extends React.Component {
                             <label for="Repetir contraseña nueva">Repetir contraseña nueva</label>
                             <br />
                             <input type="text" name="Repetir contraseña nueva" id="Repetir contraseña nueva" required />
-                            <br /><br />
+                            <br /><br /><br/>
                             <input type="submit" value="Guardar Cambios" />
+                            <br />
+                            <br />
                             <input type="submit" value="Cancelar" />
                         </form>
-                        <br />
-                        <h2>Camniar usuario</h2>
-
                     </p>
-                    <br />
-
                 </div>
             </div>
         )

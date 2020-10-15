@@ -37,14 +37,14 @@ import Ajustes1Pages from '../pages/Ajustes1Pages';
 import Ajustes1 from '../pages/Ajustes1';
 import Ajustes2Pages from '../pages/Ajustes2Pges';
 import Ajustes2 from '../pages/Ajustes2';
-import TerceroPages from '../pages/TerceroPages';
-import Tercero from '../pages/Tercero';
-import CuartoPages from '../pages/CuartoPages';
-import Cuarto from '../pages/Cuarto';
-import QuintoPages from '../pages/Quinto';
-import Quinto from '../pages/Quinto';
 import DescargaPages from '../pages/DescargarPages';
 import Descarga from '../pages/Descarga';
+import Menu1Pages from '../pages/Menu1pages';
+import Menu1 from '../pages/Menu1';
+import ProfesoresPages from '../pages/ProfesoresPages';
+import Profesores from '../pages/Profesores';
+import EstudiantesPages from '../pages/EstudiantesPages';
+import Estudiantes from '../pages/Estudiantes';
 
 function Aplicacion() {
   return (
@@ -87,14 +87,14 @@ function Aplicacion() {
           <Route exact path='/login' component={Login} />
           <Route exact path='/ayudapages' component={AyudaPages}/>
           <Route exact path='/ayuda' component={Ayuda} />
-          <Route exact path='/terceropages' component={TerceroPages}/>
-          <Route exact path='/tercero' component={Tercero} />
-          <Route exact path='/cuartopages' component={CuartoPages}/>
-          <Route exact path='/cuarto' component={Cuarto} />
-          <Route exact path='/quintopages' component={QuintoPages}/>
-          <Route exact path='/quinto' component={Quinto} />
           <Route exact path='/descargapages' component={DescargaPages}/>
           <Route exact path='/descarga' component={Descarga} />
+          <Route exact path='/menu1pages' component={Menu1Pages}/>
+          <Route exact path='/menu1' component={Menu1} />
+          <Route exact path='/profesorespages' component={ProfesoresPages}/>
+          <Route exact path='/profesores' component={Profesores} />
+          <Route exact path='/estudiantespages' component={EstudiantesPages}/>
+          <Route exact path='/estudiantes' component={Estudiantes} />
         </Switch>
       </Layout>
     </BrowserRouter>

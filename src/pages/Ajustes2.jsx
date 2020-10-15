@@ -19,10 +19,17 @@ class Ajustes2 extends React.Component {
                             <li>
                                 <a class="header__link" href="Ayuda">Ayuda</a>
                             </li>
+                            <li>
+                                <a class="header__link" href="Ajustes">Ajustes</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="Ajustes1">Ajustes #1</a>
+                            </li>
                         </ul>
                     </nav>
                     <br />
                     <p>
+                        <br />
                         <br /><h1>Ajustes</h1>
                         <br />
                         <img src="https://image.flaticon.com/icons/png/512/240/240847.png" width="100" height="100"></img>
@@ -33,18 +40,18 @@ class Ajustes2 extends React.Component {
                         <form>
                             <label for="Correo electrónico actual">Correo electrónico actual</label>
                             <br />
-                            <input type="text" name="Correo electrónico actual" id="Correo electrónico actual" id="Correo electrónico actual" required />
+                            <input type="text" name="Correo electrónico actual" id="Correo electrónico actual" required />
                             <br /><br />
-                            <label for="Agregar dirección de Correo electrónico"></label>
-                            <input type="text" name="Agregar dirección de Correo electrónico" id="Agregar dirección de Correo electrónico" required />
+                            <label for="Agregar Correo electrónico">Agregar Correo electrónico</label>
+                            <br />
+                            <input type="text" name="Agregar Correo electrónico" id="Agregar Correo electrónico" required />
                             <br /><br />
                             <input type="submit" value="Guardar Cambios" />
+                            <br />
+                            <br />
                             <input type="submit" value="Cancelar" />
                         </form>
-                        <br />
                     </p>
-                    <br />
-
                 </div>
             </div>
         )

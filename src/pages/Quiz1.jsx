@@ -2,7 +2,9 @@ import React from 'react';
 import '../Components/styles/Quiz.css';
 import { Preguntas } from './Preguntas1';
 
+
 class Quiz1 extends React.Component {
+
   state = {
     currentQuestion: 0,
     myRespuesta: null,
@@ -83,9 +85,8 @@ class Quiz1 extends React.Component {
       return (
         <div className="App">
           <h1>{this.state.pregunta} </h1>
-          <span>{`Preguntas ${currentQuestion}  de ${
-            Preguntas.length - 1
-          } Restastes `}</span>
+          <span>{`Preguntas ${currentQuestion}  de ${Preguntas.length - 1
+            } Restastes `}</span>
           {opciones.map((option) => (
             <p
               key={option.id}
@@ -112,6 +113,20 @@ class Quiz1 extends React.Component {
               Enviar Quiz
             </button>
           )}
+          <nav>
+
+            <ul>
+              <li>
+                <a class="header__link" href="Quiz2">Quiz #2</a>
+              </li>
+              <li>
+                <a class="header__link" href="Quiz3">Quiz #3</a>
+              </li>
+              <li>
+                <a class="header__link" href="Despedida">Despedida</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       );
     }

@@ -27,18 +27,6 @@ function App() {
         <li>Veronia arcila</li>
         <li>Katherine Zapata</li>
 
-        <div className="App">
-          <ul>
-            <Category name="Inicio"  item ={['¿Qué es Jugando y Aprendiendo?']} icon="file-texto-o" />
-            <Category name="Explicación"  item ={['Tema #1', 'Tema #2', 'Tema #3' ]} icon= "cube" />
-            <Category name="Evaluación"  item ={['Historia de la tenología', 'Herramientas Tecnológicas', 'Exponentes Tecnológicos']}/>
-            <Category name="Progreso"  item ={['']}/>
-            <Category name="Profeosres"  item ={['Preguntas', 'Posibles respuestas', 'Respuestas Corectas']}/>
-            <Category name="Ayuda"  item ={['']}/>
-            <Category name="Ajustes"  item ={['']}/>
-          </ul>
-        </div>
-
       </header>
     </div>
   );

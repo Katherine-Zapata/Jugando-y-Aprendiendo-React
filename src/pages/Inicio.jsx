@@ -4,29 +4,39 @@ import '../Components/styles/Inicio.css'
 class Inicio extends React.Component {
     render() {
         return (
-            <div className='Inicio'>
-                <div className='Inicio_header'>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a class="header__link" href="Explicación">Explicación</a>
-                            </li>
-                            <li>
-                                <a class="header__link" href="Progreso">Progreso</a>
-                            </li>
-                            <li>
-                                <a class="header__link" href="Ayuda">Ayuda</a>
-                            </li>
-                            <li>
-                                <a class="header__link" href="Ajustes">Ajustes</a>
-                            </li>
 
-                        </ul>
-                    </nav><br />
-                    <br /><h1>Inicio</h1>
+            <div>
+                <nav>
                     <br />
-                    <p>
-                        <h2>¿Qué es Jugando y Aprendiendo?</h2>
+                    <ul>
+                        <li>
+                            <a class="header__link" href="Explicación">Bienvenida</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="Registro">Registro</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="Login">Login</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="Explicación">Explicación</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="Ayuda">Ayuda</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="Ajustes">Ajustes</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <br />
+                <br />
+                <br /><h1>Inicio</h1>
+                <br />
+                <p>
+                    <h2>¿Qué es Jugando y Aprendiendo?</h2>
                     Es un aplicativo web móvil a la disposición
                     de los niños y niñas de la Institución
                     Educativa Santos Ángeñeles Custodios, para los
@@ -35,15 +45,13 @@ class Inicio extends React.Component {
                     herramientas y exponentes tecnológicos.
 
                             </p>
-                    <br />
+                <br />
 
-                    <img className="izquierda" src="https://www.wikiduca.com/images/easyblog_articles/950/b2ap3_thumbnail_juego-de-matematicas-juegos-para-pc-wikiduca.jpg" width="350" height="350"></img>
+                <img className="izquierda" src="https://www.wikiduca.com/images/easyblog_articles/950/b2ap3_thumbnail_juego-de-matematicas-juegos-para-pc-wikiduca.jpg" width="350" height="350"></img>
 
-                    <img className="derecha" src="https://elpais.com/tecnologia/imagenes/2018/05/02/actualidad/1525254086_542545_1525701047_noticia_fotograma.jpg " width="350" height="350"></img>
-
-                </div>
-
+                <img className="derecha" src="https://elpais.com/tecnologia/imagenes/2018/05/02/actualidad/1525254086_542545_1525701047_noticia_fotograma.jpg " width="350" height="350"></img>
             </div>
+
         )
     }
 }

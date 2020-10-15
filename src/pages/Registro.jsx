@@ -5,7 +5,7 @@ class Registro extends React.Component {
 
     render() {
         return (
-            <div className='Bienvenida'>
+            <div className='Registro'>
                 <div className='container-fluid'>
                     <h3>Crea una cuenta</h3>
                     <h3>¡Es fácil y rápido!</h3>
@@ -36,8 +36,14 @@ class Registro extends React.Component {
                         <br /><br />
                         <input type="submit" value="Sing Up" />
                     </form>
+                    <br/>
+                    <br/>
+                    <a class="header__link" href="Login">Login</a>
+                    <br/>
+                    <br/>
                 </div>
             </div>
+            
         )
     }
 }

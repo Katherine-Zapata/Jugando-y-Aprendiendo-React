@@ -4,10 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Aplicacion from './Components/Aplicacion.jsx';
 import './Components/styles/Global.css';
 import InsigniaNueva from './pages/InsigniaNueva.jsx'
-//import './styles/Registro.jsx';
-//import './styles/Bienvenida.jsx'
-//import './styles/Login.jsx';
-
+import InfinityMenu from "react-infinity-menu";
+import "react-infinity-menu/src/infinity-menu.css";
 
 ReactDOM.render(
   <>

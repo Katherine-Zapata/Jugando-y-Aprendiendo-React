@@ -1,7 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-class DescargaPages extends React.Component {
+class DescargarPages extends React.Component {
+    constructor (props) {
+        super (props) 
+        this.state = {
+            
+        }
+    }
     render() {
         return (
             <div>
@@ -14,7 +20,7 @@ class DescargaPages extends React.Component {
 
                 <div className="Badges__container">
                     <div className="Badges__buttons">
-                        <Link to="/descarga" className="btn btn-primary">
+                        <Link to="/descargar" className="btn btn-primary">
                             Descarga
               </Link>
                     </div>
@@ -26,4 +32,4 @@ class DescargaPages extends React.Component {
     }
 }
 
-export default DescargaPages;
+export default DescargarPages;

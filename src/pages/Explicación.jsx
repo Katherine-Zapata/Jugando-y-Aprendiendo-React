@@ -4,17 +4,19 @@ import ReactPlayer from 'react-player';
 class Explicación extends React.Component {
     render() {
         return (
+
             <div className='Explicación'>
                 <div className='Explicación_header'>
+                    <br />
                     <nav>
                         <ul>
                             <li>
-                                <li>
-                                    <a class="header__link" href="Menu">Menú</a>
-                                </li>
-                                <a class="header__link" href="Inicio">Inicio</a>
+                                <a class="header__link" href="Menu">Menú</a>
                             </li>
                             <li>
+                                <a class="header__link" href="Inicio">Inicio</a>
+                            </li>
+                            <li> 
                                 <a class="header__link" href="Quiz1">Quiz #1</a>
                             </li>
                             <li>
@@ -32,6 +34,7 @@ class Explicación extends React.Component {
 
                         </ul>
                     </nav>
+                    <br />
                     <br />
                     <br />
                     <p>

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../Components/styles/Login.css';
 
 class Login extends React.Component {
 
@@ -7,9 +6,13 @@ class Login extends React.Component {
         return (
             <div className='Bienvenida'>
                 <div className='container-fluid'>
+                    <br/>
+                    <br/>
+                    <h3>¡Bienvenid@s!</h3>
+                    <br/>
                     <h3>Iniciar sesión</h3>
                     <br/>
-                    <img src="https://cdn.icon-icons.com/icons2/936/PNG/512/user-shape_icon-icons.com_73346.png" width="100" height="100"></img>
+                    <img src="https://cdn.icon-icons.com/icons2/67/PNG/512/user_13230.png" width="100" height="100"></img>
                     <br/>
                     <br/>
                     <form>
@@ -17,7 +20,7 @@ class Login extends React.Component {
                         <br />
                         <input type="text" name="Gmail" id="Gmail" required />
                         <br /><br />
-                        <label for="Contraseña Nueva">Contraseña Nueva</label>
+                        <label for="Contraseña">Contraseña: (Campo Obligatorio) </label>
                         <br />
                         <input type="text" name="Contraseña" id="Contraseña" required />
                         <br/>

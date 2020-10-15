@@ -82,9 +82,8 @@ class Quiz2 extends React.Component {
       return (
         <div className="App">
           <h1>{this.state.pregunta} </h1>
-          <span>{`Preguntas ${currentQuestion}  de ${
-            Preguntas.length - 1
-          } Restastes `}</span>
+          <span>{`Preguntas ${currentQuestion}  de ${Preguntas.length - 1
+            } Restastes `}</span>
           {opciones.map((option) => (
             <p
               key={option.id}
@@ -111,6 +110,20 @@ class Quiz2 extends React.Component {
               Enviar Quiz
             </button>
           )}
+          <nav>
+
+            <ul>
+              <li>
+                <a class="header__link" href="Quiz1">Quiz #1</a>
+              </li>
+              <li>
+                <a class="header__link" href="Quiz3">Quiz #3</a>
+              </li>
+              <li>
+                <a class="header__link" href="Despedida">Despedida</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       );
     }
