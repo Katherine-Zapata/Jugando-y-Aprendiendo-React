@@ -2,7 +2,6 @@ import React from 'react';
 import '../Components/styles/Registro.css';
 
 class Registro extends React.Component {
-
     render() {
         return (
             <div className='Registro'>
